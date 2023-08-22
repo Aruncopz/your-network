@@ -39,12 +39,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .herocont1{
-    font-size: 60px;
+    font-size: 80px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .herocont2{
-    font-size: 30px;
+    font-size: 60px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
@@ -52,7 +52,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 35px;
   }
   .herocont{
     display: flex;
@@ -67,12 +67,109 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: fit-content;
+    height: fit-content;
   }
   .herobutton{
     padding: 10px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     background-color: rgb(67, 163, 141);
     border: 1px solid white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  @media (max-width:767px) {
+      .navbarcont img{
+        width: 30px;
+        height: 30px;
+      }
+      .navbarcont p{
+        font-size: 25px;
+      }
+      .herocont1{
+        font-size: 35px;
+      }
+      .herocont2{
+        font-size: 25px;
+      }
+      .herocontbox span{
+        gap: 20px;
+      }
+      .herobutton{
+        padding: 8px;
+        font-size: 20px;
+        background-color: rgb(67, 163, 141);
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px){
+      .navbarcont img{
+        width: 35px;
+        height: 35px;
+      }
+      .navbarcont p{
+        font-size: 30px;
+      }
+      .herocont1{
+        font-size: 45px;
+      }
+      .herocont2{
+        font-size: 30px;
+      }
+      .herocontbox span{
+        gap: 20px;
+      }
+      .herobutton{
+        padding: 10px;
+        font-size: 20px;
+        background-color: rgb(67, 163, 141);
+      }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1439px){
+      .navbarcont img{
+        width: 38px;
+        height: 38px;
+      }
+      .navbarcont p{
+        font-size: 32px;
+      }
+      .herocont1{
+        font-size: 48px;
+      }
+      .herocont2{
+        font-size: 33px;
+      }
+      .herocontbox span{
+        gap: 25px;
+      }
+      .herobutton{
+        padding: 10px;
+        font-size: 24px;
+        background-color: rgb(67, 163, 141);
+      }
+  }
+  @media (min-width: 1440px){
+    .navbarcont img{
+        width: 45px;
+        height: 45px;
+      }
+      .navbarcont p{
+        font-size: 35px;
+      }
+      .herocont1{
+        font-size: 55px;
+      }
+      .herocont2{
+        font-size: 40px;
+      }
+      .herocontbox span{
+        gap: 25px;
+      }
+      .herobutton{
+        padding: 10px;
+        font-size: 24px;
+        background-color: rgb(67, 163, 141);
+      }
   }
