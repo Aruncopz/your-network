@@ -27,7 +27,7 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    padding: 10px 20px;
+    padding: 15px 60px;
   }
   .navbarcont img{
     width: 50px;
@@ -59,7 +59,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    height:90%;
+    height:85%;
     width: auto;
     justify-content: center;
   }
@@ -80,6 +80,9 @@
   }
 
   @media (max-width:767px) {
+    .navbarcont{
+        padding: 15px 25px;
+      }
       .navbarcont img{
         width: 30px;
         height: 30px;
@@ -104,6 +107,9 @@
   }
 
   @media (min-width: 768px) and (max-width: 1023px){
+    .navbarcont{
+        padding: 15px 25px;
+      }
       .navbarcont img{
         width: 35px;
         height: 35px;
@@ -128,6 +134,9 @@
   }
 
   @media (min-width: 1024px) and (max-width: 1439px){
+    .navbarcont{
+        padding: 15px 28px;
+      }
       .navbarcont img{
         width: 38px;
         height: 38px;
@@ -151,6 +160,9 @@
       }
   }
   @media (min-width: 1440px){
+    .navbarcont{
+        padding: 15px 60px;
+      }
     .navbarcont img{
         width: 45px;
         height: 45px;
